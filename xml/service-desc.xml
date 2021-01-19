@@ -18,11 +18,14 @@
 					<relatedStateVariable><%=variableName%></relatedStateVariable>
 				</argument>
 			<% } %>
-			<% 	for(var outputName in action.outputs){ 
+			<% 	var retvalok = false; for(var outputName in action.outputs){ 
 				var variableName = action.outputs[outputName];%>
 				<argument>
 					<name><%=outputName%></name>
 					<direction>out</direction>
+					<% if (action.return && !retvalok) { retvalok=true %>
+					<retval/>
+					<% } %>
 					<relatedStateVariable><%=variableName%></relatedStateVariable>
 				</argument>
 			<% } %>
