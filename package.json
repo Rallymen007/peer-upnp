@@ -1,12 +1,12 @@
 {
 	"name": "peer-upnp",
 	"description": "Nodejs implementation of the UPnP Device Architecture 1.1",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"author": {
 		"name": "Louay Bassbouss",
 		"email": "louay.bassbouss@fokus.fraunhofer.de"
 	},
-	"repository": "https://github.com/fraunhoferfokus/peer-upnp.git",
+	"repository": "https://github.com/Rallymen007/peer-upnp.git",
 	"keywords": [
 		"upnp",
 		"dlna",
